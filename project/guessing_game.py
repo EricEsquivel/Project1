@@ -70,8 +70,8 @@ while again.lower() == "yes":
         print("You have chosen the hard difficulty!")
         while number != randomnumber:
             if attempts < 4:
-                print(number) # uncomment this line and the one below to check ur number and the random number generated (USE FOR TESTING PURPOSES), program runs w/o it
-                print(randomnumber)
+                #print(number) # uncomment this line and the one below to check ur number and the random number generated (USE FOR TESTING PURPOSES), program runs w/o it
+                #print(randomnumber)
                 try:
                     number = int(input("Enter a number: "))
                 except ValueError:
